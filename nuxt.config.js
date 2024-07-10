@@ -7,7 +7,7 @@ module.exports = {
   target: 'static',
 
   sitemap: {
-    hostname: "https://vomw.github.io/dnscrypt-website",
+    hostname: "https://vomw.github.io",
     gzip: true
   },
 
