@@ -16,12 +16,15 @@ jobs:
           persist-credentials: false
 
       - name: Install 🔧
-        run: yarn install
+        run: npm install
 
       - name: Build 🏗️
-        run: yarn build
+        run: npm run build
         env:
           NODE_ENV: production
+
+      - name: Generate Static Project 📦
+        run: npm run generate
 
       - name: Deploy to GH Pages 🚀
         if: ${{ github.event_name != 'pull_request' }}
