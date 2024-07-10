@@ -7,7 +7,7 @@ module.exports = {
   target: 'static',
 
   sitemap: {
-    hostname: "https://vomw.github.io",
+    hostname: "",
     gzip: true
   },
 
