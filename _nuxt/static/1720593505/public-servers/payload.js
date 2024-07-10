@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/public-servers", {data:[{}],fetch:{},mutations:void 0});
