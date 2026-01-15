@@ -5,6 +5,9 @@ module.exports = {
   modules: ["@nuxtjs/markdownit", "@nuxtjs/sitemap"],
 
   target: 'static',
+    router: {
+    base: '/dnscrypt-website/'
+  },
 
   sitemap: {
     hostname: ".",
